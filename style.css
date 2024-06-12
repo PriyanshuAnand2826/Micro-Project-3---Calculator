@@ -1,0 +1,66 @@
+.header-text{
+text-align: center;
+color: white;
+}
+body{
+  background-color: #3B4664;
+}
+.container{
+  margin-inline:auto;
+  width: 60vw;
+  height: 80vh;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.display-result{
+  width: 31%;
+  height:10vh;
+  padding: 5px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: larger;
+  font-weight: normal;
+  border:none;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.25);
+  background-color: rgb(12, 12, 53);
+  color: white;
+  text-align: end;
+  
+  
+}
+.button{
+  cursor: pointer;
+}
+.btn-input{
+  width: 30%;
+  display: grid;
+  margin-inline: auto;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(12, 12, 53);
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-input button{
+  margin: 5px 5px;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  /* box-shadow: inset 0 4px 8px 0 rgba(7, 7, 7, 0.2); */
+  border-radius: 6px;
+  color: black;
+  font-family: 'Inter';
+  font-size: medium;
+  font-weight: bold;
+}
+.btn-reset{
+  grid-column: 1/3;
+  background-color: red;
+}
+.btn-equal{
+  grid-column: 3/5;
+}
