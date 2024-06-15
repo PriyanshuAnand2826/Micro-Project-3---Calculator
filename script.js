@@ -67,7 +67,10 @@ Array.from(buttons).forEach((button)=>{
           }
         }
         else{
-          string=string + clickedvalue;
+          if(clickedvalue === 'x'){
+            clickedvalue =  '*';
+          }
+            string=string + clickedvalue;
             console.log(string)
             display.value = string;
         }
