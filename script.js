@@ -21,6 +21,7 @@ Array.from(buttons).forEach((button)=>{
           result = result.toFixed(3);
         }
         display.value=result;
+        string=result;
       }
       //to display that operator can not be placed at end
       catch(e){
